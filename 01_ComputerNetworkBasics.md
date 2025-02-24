@@ -5,17 +5,16 @@ INTERNET ?
 Collection of these computer networks.  
 
 HOW IT ALL STARTED ?  
-It was WW1, US and soviet union -> first satellite -> Russia won launching sputnik(1st satellite) in 1957, Due to competition and jealousy  
-USA created ARPA(Advanced research project agency) to do all scientific research and keep US as no. 1  
-So ARPA had buildings throught USA, then the question came how to communicate with each other leading to discovery of ARPANET  
-Connection was made b/w 4 buildings :  
+It was around WW1, US and soviet union were leading as tech giant -> first satellite -> Russia won launching sputnik(1st satellite) in 1957,   
+In response US Army created ARPA(Advanced research project agency) to develop new tech and bring america back on top, as they were worried of nuclear attack from soviets.  
+So ARPA as a protecting emergency system connection was made b/w 4 scientific universities :  
     
     Stanford, MIT, University of UTAH, UCLA
 
-using TCP**
 
 ---
 Now issue was people wanted to submit their research papers but there was no mode of communication/sharing.    
+
 WWW - Tim Berner Lee, A project that stored these research papers   
 [First Website](https://info.cern.ch/hypertext/WWW/TheProject.html)   
 There was no searh bar just limited web pages interlinked
@@ -24,7 +23,8 @@ Internet Care taker [Internet Society](https://www.internetsociety.org/about-int
 
 ---
 
-### WORLD WIDE WEB ?
+### How Countries are connected ?
+[Submarine Cable Map](https://www.submarinecablemap.com/) why not satellite coz it is faster
 
 ---
 
