@@ -1,0 +1,7 @@
+# TYPES OF NETWORK
+
+1. PAN
+2. LAN
+3. MAN
+4. WAN
+5. VPN
