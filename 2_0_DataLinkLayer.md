@@ -1,16 +1,13 @@
 # <center> DATA LINK LAYER
 
-Second Layer  
-Receives services from physical and provides services to network layer
-
----
-#### FUNCTIONALITIES ?
-- **Node to Node Delivery** : Next jump on which node
-- **Flow Control** : How much node can handle  
-- **Error Control** : Checks at node
-- **Access Contol** : Which device can use the communication channel at any given time
-- **Physical Addressing** : Adds MAC Address to frames
-- **Framing**
+1. **Framing** 
+   - Converts raw bits from the physical layer into frames (.
+   - Adds header and trailer to identify the beginning and end of a frame.
+2. **Error Control**
+3. **Flow Control** 
+4. **Access Contol**
+5. **Physical Addressing** : Adds MAC Address to frames
+6. **Node to Node Delivery**
 
 ---
 #### DESIGN ISSUES

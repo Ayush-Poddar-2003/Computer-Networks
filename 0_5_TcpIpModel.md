@@ -29,6 +29,7 @@ Protocols: IP (IPv4/IPv6), ICMP, ARP, IGMP
 
 ---
 ### 3. Transport Layer (Layer 3)
+Segmentation and Reassembly of data  
 Ensures reliable or fast delivery  
 Breaks data into segments and reassembles it  
 Protocols:  
