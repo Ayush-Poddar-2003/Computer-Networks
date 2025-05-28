@@ -1,4 +1,4 @@
-# TRANSMISSON IMPAIRMENT
+# TRANSMISSON IMPAIRMENT  ✅
 
 ### <CENTER>1. Attenuation (Signal Loss)
 - Reduction in signal strength as it travels through a medium.  

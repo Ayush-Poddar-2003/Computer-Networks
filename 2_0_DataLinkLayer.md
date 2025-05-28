@@ -15,3 +15,5 @@
 - How to detect and correct errors (Error Control)?
 - How to prevent the receiver from being overloaded (Flow Control)?
 - How to control who sends data when the medium is shared (MAC)?
+
+![alt text](image-13.png)

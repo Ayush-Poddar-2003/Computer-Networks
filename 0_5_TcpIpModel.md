@@ -4,6 +4,11 @@ It defines how data should be packaged, addressed, transmitted, routed, and rece
 
 It is also known as the DoD model (Department of Defense).
 
+![alt text](image-18.png)
+
+![alt text](image-19.png)
+
+![alt text](image-20.png)
 ---
 
 | Layer No. | Layer Name           | OSI Equivalent                     | Function                                  |

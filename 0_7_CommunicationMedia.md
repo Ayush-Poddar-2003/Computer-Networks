@@ -1,4 +1,4 @@
-## Guided Media (Wired Media)
+## Guided Media (Wired Media)  ✅
 Definition:
 Signals are transmitted through a physical path like cables or wires.
 

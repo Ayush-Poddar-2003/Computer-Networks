@@ -1,4 +1,4 @@
-# DATA COMMUNICATION
+# DATA COMMUNICATION ✅
 Exchange of data between two or more devices via transmission media using  protocols.
 
 **KEY ELEMENTS**  

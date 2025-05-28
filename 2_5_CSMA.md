@@ -1,16 +1,15 @@
-Carrier Sense Multiple Access
+# Carrier Sense Multiple Access
 
-CSMA is a media access control (MAC) protocol used in networks like Ethernet to avoid collisions when multiple devices try to send data on a shared medium.
+CSMA is a media access control (MAC) protocol used in networks to avoid collisions when multiple devices try to send data on a shared medium.
 
 CSMA works on two main ideas:
 
-1. Carrier Sense  
-– Listen before talk  
+1. Carrier Sense 
 → A device first checks the channel to see if it is idle or busy.
-
 2. Multiple Access  
-– All devices share the same medium  
 → Any device can try to access the medium, but must sense first.
+
+![alt text](image-16.png)
 
 | Type                                                | Description                                                                                                       |
 | --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
@@ -18,6 +17,7 @@ CSMA works on two main ideas:
 | **2. Non-Persistent CSMA**                          | If channel is busy → **wait random time** before sensing again. Less chance of collision.                         |
 | **3. p-Persistent CSMA** (used in slotted channels) | If channel is idle → transmit with probability **p**, wait with probability **1-p** in the next slot.             |
 
+---
 Even with sensing, collisions can still occur, especially in the case of propagation delay — two devices might sense the channel as idle at the same time.
 
 ## CSMA/CD
@@ -32,6 +32,7 @@ Used in: Wired networks like Ethernet
    - Wait random backoff time (based on exponential backoff algorithm).
    - Try again.
 
+![alt text](image-17.png)
 
 ## CSMA/CA
 Carrier Sense Multiple Access with Collision Avoidance

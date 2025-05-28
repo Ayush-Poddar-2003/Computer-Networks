@@ -7,22 +7,13 @@ TYPES OF ERROR
 ERROR DETECTION
 - Parity Bit Checker
 - CheckSum
+![alt text](image-6.png)
 - CRC
+  - Max can find power no of burst errors
+  - Total Redundant bits = power
+![alt text](image-5.png)
 
 ---
 ERROR CORRECTION
 - Hamming Code
-- ARQ
-  - Stop and wait
-  - Go Back N
-  - Selective Repeat
-
----
----
-
-## CRC
-![alt text](image-5.png)
-
-
-## CHECKSUM
-![alt text](image-6.png)
+- ![alt text](image-21.png)

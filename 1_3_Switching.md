@@ -1,4 +1,4 @@
-
+# SWITCHING  ✅
 Switching is the process of forwarding data packets between devices in a network. 
 It happens at the Data Link Layer (Layer 2) or sometimes Network Layer (Layer 3).
 
@@ -8,7 +8,6 @@ It happens at the Data Link Layer (Layer 2) or sometimes Network Layer (Layer 3)
 - Connection-oriented  
 - Contiguous Flow, Inorder  
 - No headers as dedicated path, no need of addresses
-- Fixed bandwidth is reserved.
 - Low delay once circuit is established.
 - Resources (like bandwidth) remain reserved even if no data is being sent.
 - Ensures reliable and ordered delivery.
@@ -37,3 +36,13 @@ Working:
 ## 3. MESSAGE SWITCHING
 Whole message is sent and stored at intermediate nodes before forwarding  
 Store-and-forward model
+
+---
+| Feature           | Packet Switching | Circuit Switching  | Message Switching      |
+| ----------------- | ---------------- | ------------------ | ---------------------- |
+| **Path**          | Dynamic          | Fixed              | Dynamic                |
+| **Data Units**    | Packets          | Continuous stream  | Complete messages      |
+| **Connection**    | Not required     | Required           | Not required           |
+| **Delay**         | Low              | Minimal once setup | High                   |
+| **Bandwidth Use** | Efficient        | Not efficient      | Moderate               |
+| **Use Case**      | Internet, VoIP   | Telephone calls    | Rare (obsolete mostly) |
