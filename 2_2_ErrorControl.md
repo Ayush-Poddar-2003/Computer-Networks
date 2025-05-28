@@ -5,11 +5,24 @@ TYPES OF ERROR
 - Burst Error
 
 ERROR DETECTION
-- Simple Parity
-- 2D Parity Checker
+- Parity Bit Checker
 - CheckSum
 - CRC
 
 ---
 ERROR CORRECTION
 - Hamming Code
+- ARQ
+  - Stop and wait
+  - Go Back N
+  - Selective Repeat
+
+---
+---
+
+## CRC
+![alt text](image-5.png)
+
+
+## CHECKSUM
+![alt text](image-6.png)
