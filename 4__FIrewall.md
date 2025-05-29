@@ -23,3 +23,16 @@ Checks data too
 4. Server responds to proxy → proxy responds to client
 
 ![alt text](image-7.png)
+
+| Feature                      | **Packet Filtering Firewall**                               | **Proxy Firewall**                                                                   |
+| ---------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| **OSI Layer**                | Network Layer (Layer 3)                                     | Application Layer (Layer 7)                                                          |
+| **Working Principle**        | Filters packets based on IP addresses, ports, and protocols | Acts as an intermediary between client and server; inspects full content of messages |
+| **Speed**                    | Very fast (low overhead)                                    | Slower (more processing involved)                                                    |
+| **Security Level**           | Basic (only header-level filtering)                         | High (can block specific content or applications)                                    |
+| **State Awareness**          | Stateless (unless it's a stateful firewall)                 | Can maintain session information                                                     |
+| **Configuration Complexity** | Simple rules based on IP/Port                               | Complex; requires configuring proxy settings for clients                             |
+| **Examples**                 | IP tables, Cisco ACLs                                       | Squid Proxy, Blue Coat                                                               |
+| **Use Case**                 | Basic filtering and routing                                 | Content filtering, logging, hiding internal IPs                                      |
+| **Logging & Auditing**       | Limited                                                     | Detailed logging (URLs, requests, etc.)                                              |
+| **Protection Against**       | IP spoofing, unauthorized access                            | Malicious content, malware, application-layer attacks                                |
